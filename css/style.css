@@ -140,6 +140,7 @@
   .header {
     margin-top: 20px;
     padding: 0 16px;
+    margin-bottom: 20px;
   }
 }
 .btn__logo__header {
@@ -332,7 +333,7 @@
 
 @media (max-width: 390px) {
   .btns__one__list {
-    gap: 12px;
+    justify-content: space-between;
     margin: 25px auto;
   }
 }
@@ -370,6 +371,7 @@
   .one__list__usercon {
     margin-top: 30px;
     gap: 10px;
+    justify-content: center;
   }
 }
 .plus__poppins {
@@ -1947,6 +1949,7 @@
     width: 100%;
     margin-top: 0;
     text-align: center;
+    margin-bottom: 40px;
   }
 }
 @media (max-width: 390px) {

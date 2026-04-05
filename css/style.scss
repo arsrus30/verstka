@@ -176,6 +176,7 @@ $md: medium;
     .header {
         margin-top: 20px;
         padding: 0 16px;
+        margin-bottom: 20px;
     }
 }
 
@@ -381,7 +382,7 @@ $md: medium;
 
 @media (max-width: 390px) {
     .btns__one__list {
-        gap: 12px;
+        justify-content: space-between;
         margin: 25px auto;
         
     }
@@ -422,6 +423,7 @@ $md: medium;
     .one__list__usercon {
         margin-top: 30px;
         gap: 10px;
+        justify-content: center;
     }
 }
 
@@ -2105,6 +2107,7 @@ $md: medium;
         width: 100%;
         margin-top: 0;
         text-align: center;
+        margin-bottom: 40px;
     }
 }
 
